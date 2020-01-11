@@ -102,7 +102,13 @@ WMIC           Displays WMI information inside interactive command shell.
 
 
 git status
+<<<<<<< HEAD
 git commit -m ""      // -m is just message 
+=======
+
+git commit -m ""      // -m is just message 
+
+>>>>>>> master
 git checkout 'j56l'.       // change the current state of the folder when you made the commit (go back to the previous thing before commit) first 4 letter
  of commit are sufficient 
 
