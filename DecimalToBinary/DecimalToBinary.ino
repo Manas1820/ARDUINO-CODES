@@ -1,5 +1,5 @@
 
-
+// WHY DID YOU WASTE TWO LINES
 int a;
 int n;
 int i;
