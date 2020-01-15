@@ -14,7 +14,7 @@ Serial.begin(9600);
 
 void loop()
 {
-char x=Serial.read();
+char x=Serial.read();// To read the command by the user
 if(x=='w'|| x=='W')//forward
 {
   digitalWrite(m1,HIGH);
