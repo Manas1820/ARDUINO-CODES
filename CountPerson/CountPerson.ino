@@ -36,5 +36,10 @@ void loop()
 
 void brightness(int count)          // Control the brightness of the bulb according to the number of people in the room
 {
+  if(count>5){
+    Serial.print("Room Full");
+    digitalWrite(bulb,HIGH);
+    return;
+  }
  analogWrite(bulb,51*count);
 }             
